@@ -1,0 +1,13 @@
+// map_locations.json
+
+var MAP_SITES = {
+
+    // TEST_SITE: {
+    //     name: "Test",
+    //     address: "Address",
+    //     lat: "LAT",
+    //     lng: "LNG",
+    //     phone: "000-000-0000"
+    // }
+
+}

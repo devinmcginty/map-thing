@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <!-- Loading Map API -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLloJadFsUu05QeCDKgPuMZWN6-lLgumQ&sensor=false"></script>
+    <!-- Loading Jquery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="./src/main.css" />
+    <!-- Loading site information -->
+    <script src="./src/map_locations.json"></script>
+    <script src="./src/main.js"></script>
+</head>
+
+<body>
+    <div id="mapCanvas"></div>
+    <div id="sidebar">
+        <div id="search">
+            Search:
+            <input type="text" id="searchBox" placeholder="Type to search">
+        </div>
+    </div>
+    <div id="handle"></div>
+    <div id="infowin"></div>
+</body>
+
+</html>
